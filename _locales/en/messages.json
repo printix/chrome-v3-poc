@@ -1,0 +1,122 @@
+{
+  "sign_in_success": {
+    "message": "Signed into $TENANT$ as $USER$",
+    "placeholders": {
+      "tenant": {
+        "content": "$1"
+      },
+      "user": {
+        "content": "$2"
+      }
+    }
+  },
+  "signed_into_tenant": {
+    "message": "Signed into $TENANT$",
+    "placeholders": {
+      "tenant": {
+        "content": "$1"
+      }
+    }
+  },
+  "sign_in_failed": {
+    "message": "Sign In failed"
+  },
+  "visit_manual": {
+    "message": "Help"
+  },
+  "visit_admin_manual": {
+    "message": "Visit Printix Administrator Manual"
+  },
+  "visit_support": {
+    "message": "Support"
+  },
+  "visit_administrator": {
+    "message": "Open Printix Administrator..."
+  },
+  "visit_release_app": {
+    "message": "Open Printix App.."
+  },
+  "not_signed_in": {
+    "message": "Not signed in"
+  },
+  "sign_out": {
+    "message": "Sign Out"
+  },
+  "sign_in": {
+    "message": "Sign In"
+  },
+  "printix_home": {
+    "message": "Printix home"
+  },
+  "select_printix_home": {
+    "message": "Pick a Printix Home"
+  },
+  "change_home": {
+    "message": "Change home"
+  },
+  "print_method": {
+    "message": "Print method"
+  },
+  "print_later": {
+    "message": "Print Later"
+  },
+  "print_direct": {
+    "message": "Print"
+  },
+  "sending_job_to_printer": {
+    "message": "Sending $JOB$ to printer $PRINTER$",
+    "placeholders": {
+      "job": {
+        "content": "$1"
+      },
+      "printer": {
+        "content": "$2"
+      }
+    }
+  },
+  "job_sent_to_printer": {
+    "message": "$JOB$ sent to printer $PRINTER$",
+    "placeholders": {
+      "job": {
+        "content": "$1"
+      },
+      "printer": {
+        "content": "$2"
+      }
+    }
+  },
+  "job_printed": {
+    "message": "$JOB$ printed on $PRINTER$",
+    "placeholders": {
+      "job": {
+        "content": "$1"
+      },
+      "printer": {
+        "content": "$2"
+      }
+    }
+  },
+  "printjob_failed": {
+    "message": "Error printing $JOB$ on $PRINTER$. ",
+    "placeholders": {
+      "job": {
+        "content": "$1"
+      },
+      "printer": {
+        "content": "$2"
+      }
+    }
+  },
+
+  "printjob_failed_no_proxies": {
+    "message": "Error printing $JOB$ on $PRINTER$. The job was sent to the server but could not be released at this time. You can access and release the job later via the Printix release app ",
+    "placeholders": {
+      "job": {
+        "content": "$1"
+      },
+      "printer": {
+        "content": "$2"
+      }
+    }
+  }
+}

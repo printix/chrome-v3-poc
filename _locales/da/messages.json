@@ -1,0 +1,13 @@
+{
+    "sign_in_success": {
+        "message": "Logget ind på $TENANT$ som $USER$",
+        "placeholders": {
+            "tenant": {
+                "content": "$1"
+            },
+            "user": {
+                "content": "$2"
+            }
+        }
+    }
+}
