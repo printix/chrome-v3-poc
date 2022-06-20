@@ -112,7 +112,7 @@ chrome.printerProvider.onGetPrintersRequested.addListener(function (
   function requestPrint(printJob, resultCallback){
     var header = new Headers();
     header.append("x-ms-blob-type","BlockBlob" )
-    fetch("", {
+    fetch("INSERT_URL_HERE", {
         method: "PUT",
         headers: header,
         body: printJob.document
